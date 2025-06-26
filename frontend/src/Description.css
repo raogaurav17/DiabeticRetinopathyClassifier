@@ -1,0 +1,144 @@
+
+
+.description-container {
+    width: 100%;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #e0e0e0;
+    background-color: #1c2526;
+    min-height: 100vh;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.description-h1 {
+    font-size: 2.5rem;
+    color: #0288d1;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.description-h3 {
+    font-size: 1.6rem;
+    color: #0288d1;
+    margin-bottom: 20px;
+    text-align: center;
+    font-weight: 600;
+}
+
+.description-h2 {
+    font-size: 1.8rem;
+    color: #0288d1;
+    margin: 30px 0 15px;
+    font-weight: 600;
+}
+
+.description-text {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+.description-strong {
+    color: #4fc3f7;
+    font-weight: bold;
+}
+
+.description-emphasis {
+    font-style: italic;
+    color: #b0bec5;
+}
+
+.description-section {
+    background-color: #2a3637;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.description-section:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.description-list-unordered,
+.description-list-ordered {
+    margin: 15px 0;
+    padding-left: 30px;
+}
+
+.description-list-item {
+    font-size: 1.1rem;
+    margin-bottom: 10px;
+    color: #e0e0e0;
+}
+
+.description-list-unordered .description-list-item {
+    list-style-type: disc;
+}
+
+.description-list-ordered .description-list-item {
+    list-style-type: decimal;
+}
+
+.description-link {
+    color: #4fc3f7;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.description-link:hover {
+    color: #81d4fa;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .description-container {
+        margin: 60px auto 20px;
+        padding: 0 15px;
+    }
+
+    .description-h1 {
+        font-size: 2rem;
+    }
+
+    .description-h3 {
+        font-size: 1.4rem;
+    }
+
+    .description-h2 {
+        font-size: 1.5rem;
+    }
+
+    .description-text,
+    .description-list-item {
+        font-size: 1rem;
+    }
+
+    .description-section {
+        padding: 15px;
+    }
+}
+
+@media (max-width: 480px) {
+    .description-h1 {
+        font-size: 1.8rem;
+    }
+
+    .description-h3 {
+        font-size: 1.2rem;
+    }
+
+    .description-h2 {
+        font-size: 1.3rem;
+    }
+
+    .description-container {
+        margin: 50px auto 20px;
+    }
+}
