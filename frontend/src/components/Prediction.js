@@ -49,7 +49,6 @@ function Prediction() {
   };
 
   const generateReport = () => {
-    // Create a hidden div with custom report content
     const reportContent = `
       <div class="pdf-report">
         <div class="pdf-header">
@@ -95,13 +94,11 @@ function Prediction() {
         </div>
       </div>
     `;
-
-    // Create a temporary container for the report
     const element = document.createElement('div');
     element.innerHTML = reportContent;
     document.body.appendChild(element);
 
-    // PDF generation options
+    
     const opt = {
       margin: [0.5, 0.5],
       filename: `DR_Report_${formData.name || 'Patient'}.pdf`,

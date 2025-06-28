@@ -1,6 +1,5 @@
-// src/components/Home.js
 import React from 'react';
-import '../styles.css'; // assuming this contains your styles
+import '../styles.css';
 import About from './About';
 
 const backgroundStyle = {

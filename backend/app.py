@@ -7,7 +7,7 @@ from torchvision import models, transforms
 import io
 
 app = Flask(__name__)
-CORS(app)  # Enable CORS for React frontend
+CORS(app)
 
 # Device configuration
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

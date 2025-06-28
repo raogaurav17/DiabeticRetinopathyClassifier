@@ -4,7 +4,6 @@ import Home from './components/Home';
 import Prediction from './components/Prediction';
 import About from './components/About';
 import Description from './components/Description'
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './styles.css';
 
 function App() {
